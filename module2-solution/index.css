@@ -1,68 +1,119 @@
-/* desktop devices */
-h1{
+h1 {
     text-align: center;
 }
-.row{
-    width: 100%;
-}
+/* desktop devices */
 @media (min-width: 992px){
-    .col-lg-1, .col-lg-2, .col-lg-3 {
+    /* .col-lg-1, .col-lg-2,.col-lg-3 {
         float: left;
-        border: solid 2px black;
+        
+    } */
+    .container{
+        width: 100%;
+    }
+    .chicken{
+        border-color: red;
+        border-width: 5px;
+        background-color: pink;
+        float: right;
+        
+        
     }
 
-    .col-lg-1{
-        width: 25%;
+    .beef{
+        border-color: black solid;
+        background-color: red;
+        float: right;
+        
         
     }
-    .col-lg-2{
-        width:25%;
+
+    .sushi{
+        border-color: black solid;
+        background-color: yellow;
+        float: right;
         
     }
-    .col-lg-3{
-        width: 25%;
-        
-    }
-    
+
+    .col{
+        width: 33%;
+        border: black 1px solid;
+        float: left;
+        margin: 2px;
+        background-color: grey;
+
+    }    
 }
 /* tablets */
 @media (min-width: 768px) and (max-width:991px){
-    .section1, .section2, .section3 {
-        float: left;
-        border: solid 2px black;
+    .container{
+        width: 100%;
     }
 
-    .section1{
-        width: 25%;
+    .chicken{
+        border-color: black solid;
+        background-color: pink;
+        float: right;
+        
         
     }
-    .section2{
-        width:25%;
+    .beef{
+        border-color: black solid;
+        background-color: red;
+        float: right;
+        
         
     }
-    .section3{
-        width: 25%;
+
+    .sushi{
+        border-color: black solid;
+        background-color: yellow;
+        float: right;
         
-    };
+    }
+    .col{
+        width: 60%;
+        border: black 1px solid;
+        float: left;
+        margin: 3px;
+        background-color: grey;
+
+}
+/* modbile */
+@media (min-width:767px){
+    .container{
+        width: 100%;
+    }
+
+    .chicken{
+        border-color: black solid;
+        background-color: pink;
+        float: right;
+        
+        
+    }
+
+    .beef{
+        border-color: black solid;
+        background-color: red;
+        float: right;
+        
+        
+    }
+    .sushi{
+        border-color: black solid;
+        background-color: yellow;
+        float: right;
+        
+        
+    }
+
     
-}
-/* modbilr */
-@media (max-width:767px){
-    .section1, .section2, .section3 {
-        float: left;
-        border: solid 2px black;
-    }
 
-    .section1{
-        width: 25%;
-        
-    }
-    .section2{
-        width:25%;
-        
-    }
-    .section3{
-        width: 25%;
-        
-    }
-}
+    .col{
+        width: 100%;
+        border: black 1px solid;
+        float: left;
+        margin: 3px;
+        background-color: grey;
+   
+} 
